@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&family=Roboto:wght@100;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+.serviciosw {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+}
+h2 {
+    color: black;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    color: black;
+    padding-bottom: 0.5em;
+}
+.ul1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li1 {
+    margin: 1em 0;
+    color: black;
+    padding-left: 1.5em;
+    position: relative;
+}
+.li1:before {
+    content: '✔';
+    color: darkblue;
+    position: absolute;
+    left: 0;
+}
+
+.banner1 {
+    width: 100%;
+    position: relative;
+   background-color: aliceblue;
+   left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+
+p {
+    color: black;
+}
+img {
+    display: block;
+    max-width: 30%;
+    margin: 2em auto 0;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.redess {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.redess .espacio {
+    margin: 0 10px;
+}

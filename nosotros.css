@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&family=Roboto:wght@100;400;900&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background: aliceblue;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: aliceblue;
+    border-radius: 8px;
+   
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+p, ul {
+    margin: 0;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#quienes-somos1 {
+    margin-bottom: 40px;
+     border: 2px solid black;
+}
+
+#quienes-somos1 h2 {
+    margin-bottom: 20px;
+}
+
+#quienes-somos1 p {
+    font-size: 1.1em;
+    color: black;
+}
+
+#mision-vision-valores {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
+
+   .subsection {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border: 2px solid black;
+}
+  
+ 
+.subsection h2 {
+    margin-bottom: 10px;
+}
+
+
+
+
